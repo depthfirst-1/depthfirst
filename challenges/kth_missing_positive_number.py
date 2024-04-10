@@ -8,7 +8,7 @@ def Kth_missing_positive_number_1(arr, k):
         if k == 0:
             return i
 
-
+# Binary Search solution O(log N)
 def Kth_missing_positive_number_2(arr, k):
     low = 0
     high = len(arr) - 1
